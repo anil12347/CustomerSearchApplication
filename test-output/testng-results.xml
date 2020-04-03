@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3145" started-at="2020-04-03T20:58:09 IST" finished-at="2020-04-03T20:58:12 IST">
+  <suite name="Suite" duration-ms="3238" started-at="2020-04-03T21:10:27 IST" finished-at="2020-04-03T21:10:30 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3145" started-at="2020-04-03T20:58:09 IST" finished-at="2020-04-03T20:58:12 IST">
+    <test name="Customerlistener" duration-ms="3238" started-at="2020-04-03T21:10:27 IST" finished-at="2020-04-03T21:10:30 IST">
       <class name="com.customer.search.application.CustomersSearchApplication.CustomerTestCases">
-        <test-method status="PASS" signature="authenication()[pri:0, instance:com.customer.search.application.CustomersSearchApplication.CustomerTestCases@3d99d22e]" name="authenication" duration-ms="1803" started-at="2020-04-03T20:58:09 IST" finished-at="2020-04-03T20:58:11 IST">
+        <test-method status="PASS" signature="authenication()[pri:0, instance:com.customer.search.application.CustomersSearchApplication.CustomerTestCases@3d99d22e]" name="authenication" duration-ms="1861" started-at="2020-04-03T21:10:27 IST" finished-at="2020-04-03T21:10:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- authenication -->
-        <test-method status="PASS" signature="recordsOfAllCutomers()[pri:0, instance:com.customer.search.application.CustomersSearchApplication.CustomerTestCases@3d99d22e]" name="recordsOfAllCutomers" duration-ms="476" started-at="2020-04-03T20:58:11 IST" finished-at="2020-04-03T20:58:12 IST">
+        <test-method status="PASS" signature="recordsOfAllCutomers()[pri:0, instance:com.customer.search.application.CustomersSearchApplication.CustomerTestCases@3d99d22e]" name="recordsOfAllCutomers" duration-ms="463" started-at="2020-04-03T21:10:29 IST" finished-at="2020-04-03T21:10:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordsOfAllCutomers -->
-        <test-method status="PASS" signature="userWithPhoneNumber(java.lang.String)[pri:0, instance:com.customer.search.application.CustomersSearchApplication.CustomerTestCases@3d99d22e]" name="userWithPhoneNumber" duration-ms="273" started-at="2020-04-03T20:58:12 IST" data-provider="PhoneNumber" finished-at="2020-04-03T20:58:12 IST">
+        <test-method status="PASS" signature="userWithPhoneNumber(java.lang.String)[pri:0, instance:com.customer.search.application.CustomersSearchApplication.CustomerTestCases@3d99d22e]" name="userWithPhoneNumber" duration-ms="289" started-at="2020-04-03T21:10:29 IST" data-provider="PhoneNumber" finished-at="2020-04-03T21:10:30 IST">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userWithPhoneNumber -->
-        <test-method status="PASS" signature="userWithPhoneNumber(java.lang.String)[pri:0, instance:com.customer.search.application.CustomersSearchApplication.CustomerTestCases@3d99d22e]" name="userWithPhoneNumber" duration-ms="274" started-at="2020-04-03T20:58:12 IST" data-provider="PhoneNumber" finished-at="2020-04-03T20:58:12 IST">
+        <test-method status="PASS" signature="userWithPhoneNumber(java.lang.String)[pri:0, instance:com.customer.search.application.CustomersSearchApplication.CustomerTestCases@3d99d22e]" name="userWithPhoneNumber" duration-ms="287" started-at="2020-04-03T21:10:30 IST" data-provider="PhoneNumber" finished-at="2020-04-03T21:10:30 IST">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userWithPhoneNumber -->
-        <test-method status="PASS" signature="userWithPhoneNumber(java.lang.String)[pri:0, instance:com.customer.search.application.CustomersSearchApplication.CustomerTestCases@3d99d22e]" name="userWithPhoneNumber" duration-ms="275" started-at="2020-04-03T20:58:12 IST" data-provider="PhoneNumber" finished-at="2020-04-03T20:58:12 IST">
+        <test-method status="PASS" signature="userWithPhoneNumber(java.lang.String)[pri:0, instance:com.customer.search.application.CustomersSearchApplication.CustomerTestCases@3d99d22e]" name="userWithPhoneNumber" duration-ms="296" started-at="2020-04-03T21:10:30 IST" data-provider="PhoneNumber" finished-at="2020-04-03T21:10:30 IST">
           <params>
             <param index="0">
               <value>
@@ -49,6 +49,6 @@
           </reporter-output>
         </test-method> <!-- userWithPhoneNumber -->
       </class> <!-- com.customer.search.application.CustomersSearchApplication.CustomerTestCases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Customerlistener -->
+  </suite> <!-- Suite -->
 </testng-results>

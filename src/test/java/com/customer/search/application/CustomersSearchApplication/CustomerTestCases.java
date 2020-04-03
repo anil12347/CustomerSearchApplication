@@ -72,7 +72,7 @@ public class CustomerTestCases {
 	@Test(dataProvider="PhoneNumber")
 	public void userWithPhoneNumber(String phoneNumber) {
 		System.out.println("************Testcase 3 starts***************");
-		RestAssured.baseURI=ResourceAndBaseUrl.host;
+		RestAssured.baseURI=ResourceAndBaseUrl.host; 
 		Response res=(Response) given().auth().oauth2(ReusableMethods.token()).
 		when().
 		get(ResourceAndBaseUrl.user+"/"+phoneNumber).
